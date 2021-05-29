@@ -50,14 +50,14 @@ function getAndUpdate() {
     update();
   }
   function clearStorage() {
-    if (confirm("Do you areally want to clear?")) {
+    if (confirm("Do you really want to clear?")) {
       console.log("Clearing the storage");
       localStorage.clear();
       update();
     }
   }
   var typed = new Typed(".typing", {
-    strings: ["Welcome To Your", "TODO List"],
+    strings: ["Welcome To Your Task Manager"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
